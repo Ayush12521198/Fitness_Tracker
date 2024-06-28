@@ -1,0 +1,42 @@
+ 
+ .box{
+    overflow-y: scroll;
+ }
+ .tutorial-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+
+  }
+  
+  .main-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .topics {
+    margin-bottom: 20px;
+  }
+  
+  .topics h2 {
+    color: #d9534f;
+  }
+  
+  .topics ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .topics li {
+    cursor: pointer;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .topics li:hover {
+    color: #d9534f;
+  } 
+
+
+  

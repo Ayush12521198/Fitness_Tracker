@@ -1,0 +1,26 @@
+
+.box{
+    overflow-y: scroll;
+}
+.feature-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  h2{
+   border-bottom: 1px solid rgb(225, 225, 225);
+  }
+  .feature-container h2 {
+    color: #d9534f;
+  }
+  
+  .feature-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .feature-container p {
+    margin: 10px 0;
+  }
+  

@@ -1,0 +1,286 @@
+.contact-page {
+  font-family: Arial, sans-serif;
+}
+.box{
+  overflow-y: scroll;
+}
+.contact-us-banner {
+  background-image: url('https://www.hfe.co.uk/wp-content/uploads/2022/06/CV_Connect_V7-min.jpg'); /* Update with your image path */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 498px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.75vw;
+}
+.shy h2{
+  text-align: center;
+  border-bottom: none;
+  text-decoration: none;
+  font-family: poppins,sans-serif;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 2em;
+  font-weight: 600;
+  font-size: 2.8125vw;
+
+  
+
+}
+.shy span{
+  color: #3b7598;
+}
+
+.contact-us-banner .overlay h1{
+  font-size: 3.6vw;
+}
+.contact-us-banner h1 {
+  color: white;
+  font-size: 2.5em;
+}
+
+.contact-details-form {
+  width: full;
+  max-width: 1358px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 80px;
+}
+
+.contact-details-form .contact-info {
+  width: full;
+ 
+}
+.contact-info ul li span{
+  margin-left: 10px;
+}
+.contact-info ul li span{
+  color: black;;
+  font-size: 1.5625vw;
+ 
+}
+.contact-info ul li strong{
+  font-size: 1.5625vw;
+  color: #3b7598;
+  line-height: 1.80em;
+}
+.contact-details-form .contact-info h2 {
+  font-size: 1.5em;
+}
+
+.contact-details-form .contact-info h2 span {
+  color: #007bff;
+}
+
+.contact-details-form .contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-details-form .contact-info ul li {
+  margin-bottom: 10px;
+}
+
+.contact-details-form .form {
+  width: 45%;
+}
+
+.contact-details-form .form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-details-form .form input,
+.contact-details-form .form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-details-form .form button {
+  padding: 10px;
+  font-size: 1em;
+  background-color: #3b7598;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 10.72916667vw;
+   
+    
+}
+.contact-details-form .form button:hover{
+  color: #3b7598 ;
+  border: #3b7598 2px solid;
+  cursor: pointer;
+  background-color: #fff;
+ 
+}
+
+.stay-in-touch {
+  background-color: #a8e6cf;
+  padding: 40px;
+ display: flex;
+  justify-content: space-around;
+}
+.name-surname-group {
+  display: flex;
+  gap: 10px;
+
+}
+.stay-in-touch h2 {
+  font-size: 2.7vw;
+  margin-bottom: 20px;
+}
+
+.stay-in-touch p {
+  font-family: poppins,sans-serif;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.3em;
+  font-size: 1.04166667vw;
+  color: #141414;
+  max-width: 479px;
+}
+
+.stay-in-touch form {
+  display: flex;
+  flex-direction: column;
+ margin-top: 40px;
+
+}
+
+.stay-in-touch form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 1em;
+
+  border: 1px solid #ccc;
+
+  border-radius: 5px;
+}
+
+.stay-in-touch form button {
+  padding: 10px;
+  font-size: 1em;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  max-width: 150px;
+}
+
+.stay-in-touch form button:hover{
+  background-color: white;;
+  color: black;
+}
+
+
+.stay-in-touch {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.name-surname-group {
+  display: flex;
+  gap: 20px;
+}
+
+/* Media query for screens with a maximum width of 600px */
+@media (max-width: 600px) {
+  .stay-in-touch {
+      padding: 10px;
+  }
+
+  .stay-in-touch h2 {
+      font-size: 1.5em;
+  }
+
+  .stay-in-touch p {
+      font-size: 1em;
+  }
+
+  .name-surname-group {
+      flex-direction: column;
+      gap: 10px; /* Adjust gap for smaller screens */
+  }
+
+  .stay-in-touch input[type="text"],
+  .stay-in-touch input[type="email"] {
+      width: 100%;
+      box-sizing: border-box;
+  }
+.stay-in-touch {
+  flex-direction: column;
+}
+  .stay-in-touch button {
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 1em;
+  }
+}
+@media(max-width:600px){
+  .contact-details-form{
+    display: flex;
+    justify-content: center;
+  
+    flex-direction: column;
+    width: 100%;
+    max-width: 358px;
+  }
+ 
+  .contact-details-form .form{
+    width: 100%;
+  }
+  .contact-info ul li strong{
+    font-size: 3.3vw;
+    font-family: poppins,sans-serif;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.45em;
+  font-weight: 600;
+  }
+  .contact-info ul li span{
+    font-size: 3.3vw;
+    font-family: poppins,sans-serif;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.3em;
+  }
+  .shy h2{
+    font-size: 5vw;
+    font-family: poppins,sans-serif;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.45em;
+  font-weight: 600;
+  }
+  .contact-details-form .form button{
+    width: 100%;
+  }
+  .contact-us-banner .overlay h1{
+    font-size: 5.74074074vw;
+ 
+  }
+  .contact-us-banner {
+    max-height: 350px;
+  }
+}
+.confirmation-message h2{
+  font-size: 2.08333333vw;
+}
+.confirmation-message p{
+font-size: 1.04166667vw;
+font-family: poppins,sans-serif;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.3em;
+  margin-bottom: 1.75em;
+  padding: 0;
+}

@@ -1,0 +1,31 @@
+/* src/components/CardList.css */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .card-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  .box h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  /* Medium screens (tablets, 768px and above) */
+  @media (max-width: 992px) {
+    .box h1 {
+      font-size: 30px;
+    }
+  }
+  
+  /* Small screens (phones, 576px and above) */
+  @media (max-width: 576px) {
+    .box h1 {
+      font-size: 24px;
+    }
+  }
+  
