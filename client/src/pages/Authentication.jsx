@@ -69,7 +69,7 @@ const Authentication = () => {
       <Left>
         <Logo src={LogoImage} />
        
-        <Image src="https://skinnyms.com/wp-content/uploads/2018/06/Top-Cardio-Workouts-for-Weight-Loss.jpg" />
+        <Image src="https://t4.ftcdn.net/jpg/02/43/13/15/360_F_243131531_jmNppYX9Ux2Hj2RV9yYR1swicwcYr8EQ.jpg" />
       </Left>
       <Right>
         {!login ? (
