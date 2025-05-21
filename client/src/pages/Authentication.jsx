@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import LogoImage from "../utils/Images/Logo.png";
-
+import AuthImage from '../utils/Images/AuthImage.jpg'
 import SignIn from "../components/SignIn";
 import SignUp from "../components/SignUp";
 
@@ -69,7 +69,7 @@ const Authentication = () => {
       <Left>
         <Logo src={LogoImage} />
        
-        <Image src="https://t4.ftcdn.net/jpg/02/43/13/15/360_F_243131531_jmNppYX9Ux2Hj2RV9yYR1swicwcYr8EQ.jpg" />
+        <Image src={AuthImage} />
       </Left>
       <Right>
         {!login ? (
